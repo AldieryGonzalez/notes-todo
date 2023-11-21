@@ -11,10 +11,10 @@ export const Navbar: React.FC<NavbarProps> = ({ ...props }) => {
         <Logo />
         <div className="flex w-full items-center justify-between space-x-4 md:block md:w-auto">
           <Button variant={"outline"} size="sm" asChild>
-            <Link href="/login">Login</Link>
+            <Link href="/sign-in">Login</Link>
           </Button>
           <Button size={"sm"} asChild>
-            <Link href="/signup">Get Taskify for free</Link>
+            <Link href="/sign-up">Get Taskify for free</Link>
           </Button>
         </div>
       </div>
